@@ -30,7 +30,7 @@ app.post('/send-email', (req, res) => {
 
   const data = {
     from: "sanjana4809.be23 <you@sandbox3f48f6062a614611936b3175b00d96be.mailgun.org>", // Sender
-    to: email, // Dynamic recipient email
+    to: "sanjana4809.be23@chitkara.edu.in", 
     subject: "Welcome!! You have Subscribed Successfully..",
     text: "Thank you for subscribing to our DEV@Deakin.",
     html: `
